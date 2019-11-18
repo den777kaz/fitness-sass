@@ -1,0 +1,23 @@
+// all from section programm!!!!
+.trainers
+    clear: both
+    background-color: $bgcolor-white
+    padding: 70px 0
+    &-cardbox
+        perspective: 1000px
+        transform-style: preserve-3d
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &-textbox
+        padding-bottom: 50px
+    &-card 
+        transition: transform 0.2s
+        background-color: $bgcolor-white
+        width: 350px
+        &__title,
+        &__text
+            text-align: center
+            span 
+                color: $kontrast-color
+                font-size: 0.7em

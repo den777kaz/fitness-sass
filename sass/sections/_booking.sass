@@ -1,0 +1,40 @@
+.booking
+    display: flex
+    transform: translateY(-210px)
+    transition: 2s
+    height: 515px
+    max-width: 1200px
+    background-color: $bgcolor-white
+    -webkit-box-shadow: 3px 9px 25px -16px rgba(0,0,0,0.71)
+    -moz-box-shadow: 3px 9px 25px -16px rgba(0,0,0,0.71)
+    box-shadow: 3px 9px 25px -16px rgba(0,0,0,0.71)
+    &-photo 
+        min-width: 30%
+        height: 100%
+        background-image: url(../img/BgForm.jpg)
+        background-size: cover
+    &-form 
+        padding: 70px 0
+        width: 100%
+        height: 100%
+        text-align: center
+        input[type="number"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="time"],
+        input[type="text"]
+            border: none
+            width: 170px
+            height: 42px
+            border-bottom: 1px solid black
+            margin-right: 25px
+        input[type="button"]
+            margin-top: 70px
+    &__text 
+        font-size: 20px
+        text-transform: uppercase
+    &__subtext 
+        font-size: 24px
+        text-transform: uppercase
+        

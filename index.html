@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fitness</title>
-    <link rel="stylesheet" href="den777kaz/css/normalize.css">
-    <link rel="stylesheet" href="den777kaz/css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="header-logo">
-            <img src="../img/logo.png" alt="logo" class="head-logo">
+            <img src="./img/logo.png" alt="logo" class="head-logo">
         </div>
         <nav class="header-topnav">
             <ul>
@@ -56,7 +56,7 @@
    </div>
    <section class="about">
         <div class="about-bg">
-            <img src="/img/about.png" alt="about" class="about__photo">
+            <img src="./img/about.png" alt="about" class="about__photo">
         </div>
         <div class="container">
             <div class="about-text">
@@ -85,19 +85,19 @@
             </div>
             <div class="programm-cardbox">
                 <article class="programm-card card-crossfit">
-                    <img src="/img/card_1.jpg" alt="crossfit" class="programm-card__pic">
+                    <img src="./img/card_1.jpg" alt="crossfit" class="programm-card__pic">
                     <h2 class="programm-card__title">Basic Crossfit</h2>
                     <p class="programm-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate iure quo maiores facilis non.</p>
                     <button class="programm-card__btn btn-design">get in touch</button>
                 </article>
                 <article class="programm-card card-crossfit">
-                    <img src="/img/card_3.png" alt="fitness" class="programm-card__pic">
+                    <img src="./img/card_3.png" alt="fitness" class="programm-card__pic">
                     <h2 class="programm-card__title">Fitness Studio</h2>
                     <p class="programm-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate iure quo maiores facilis non.</p>
                     <button class="programm-card__btn btn-design">get in touch</button>
                 </article>
                 <article class="programm-card card-crossfit">
-                    <img src="/img/card_2.jpg" alt="yoga" class="programm-card__pic">
+                    <img src="./img/card_2.jpg" alt="yoga" class="programm-card__pic">
                     <h2 class="programm-card__title">Yoga Classes</h2>
                     <p class="programm-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate iure quo maiores facilis non.</p>
                     <button class="programm-card__btn btn-design">get in touch</button>
@@ -122,17 +122,17 @@
             </div>
             <div class="trainers-cardbox">
                 <article class="trainers-card card-crossfit">
-                    <img src="/img/trainer1.png" alt="crossfit" class="trainers-card__pic">
+                    <img src="./img/trainer1.png" alt="crossfit" class="trainers-card__pic">
                     <h2 class="trainers-card__title">Sara Miller <br> <span>spinning trainer</span></h2>
                     <p class="trainers-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate iure quo maiores facilis non.</p>
                 </article>
                 <article class="trainers-card card-fitness">
-                    <img src="/img/trainer2.png" alt="fitness" class="trainers-card__pic">
+                    <img src="./img/trainer2.png" alt="fitness" class="trainers-card__pic">
                     <h2 class="trainers-card__title">John Doe <br> <span>bootcamp trainer</span></h2>
                     <p class="trainers-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate iure quo maiores facilis non.</p>
                 </article>
                 <article class="trainers-card card-yoga">
-                    <img src="/img/trainer3.png" alt="yoga" class="trainers-card__pic">
+                    <img src="./img/trainer3.png" alt="yoga" class="trainers-card__pic">
                     <h2 class="trainers-card__title">Mario Jung <br> <span>spinning trainer</span></h2>
                     <p class="trainers-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate iure quo maiores facilis non.</p>
                 </article>
@@ -164,14 +164,14 @@
                         <p class="footer-info__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum molestias ea, fuga quae minima totam odit earum quas illo tempora. Laborum, eius provident? Voluptatibus illum quam libero similique ut tempore.</p>
                         <div class="footer-icons">
                             <small>Follow Us:</small>
-                            <img src="/img/icons/facebook.png" alt="facebook">
-                            <img src="/img/icons/twitter.png" alt="twitter">
-                            <img src="/img/icons/instagram.png" alt="insta">
-                            <img src="/img/icons/pinterest.png" alt="pinter">
-                            <img src="/img/icons/dribbble.png" alt="s">
-                            <img src="/img/icons/youtube.png" alt="youtube">
-                            <img src="/img/icons/google plus.png" alt="dee">
-                            <img src="/img/icons/tumblr.png" alt="tttt">
+                            <img src="./img/icons/facebook.png" alt="facebook">
+                            <img src="./img/icons/twitter.png" alt="twitter">
+                            <img src="./img/icons/instagram.png" alt="insta">
+                            <img src="./img/icons/pinterest.png" alt="pinter">
+                            <img src="./img/icons/dribbble.png" alt="s">
+                            <img src="./img/icons/youtube.png" alt="youtube">
+                            <img src="./img/icons/google plus.png" alt="dee">
+                            <img src="./img/icons/tumblr.png" alt="tttt">
                         </div>
                         <form action="post" class="footer-form">
                             <input class="footer-form__text" type="mail" placeholder="E-Mail">
@@ -181,15 +181,15 @@
             <section class="footer-blog">
                 <h3 class="footer-blog__title">Blog</h3>
                 <div class="footer-blog_wrap">
-                    <img src="/img/blog/1.png" alt="" class="footer-blog__pic">
+                    <img src="./img/blog/1.png" alt="" class="footer-blog__pic">
                     <p class="footer-blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, maiores!</p>
                 </div>
                 <div class="footer-blog_wrap">
-                    <img src="/img/blog/2.png" alt="" class="footer-blog__pic">
+                    <img src="./img/blog/2.png" alt="" class="footer-blog__pic">
                     <p class="footer-blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, maiores!</p>
                 </div>
                 <div class="footer-blog_wrap">
-                    <img src="/img/blog/3.png" alt="" class="footer-blog__pic">
+                    <img src="./img/blog/3.png" alt="" class="footer-blog__pic">
                     <p class="footer-blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, maiores!</p>
                 </div>
                 
@@ -198,15 +198,15 @@
             <section class="footer-instagram">
                         <h3 class="footer-instagram__title">Instagram</h3>
                         <div class="footer-insPics">
-                            <img src="/img/instagramm/Rectangle 20 copy 2.png" alt="logo" class="footer-insPics__img">
-                            <img src="/img/instagramm/Rectangle 20 copy 3-1.png" alt="logo" class="instagram-pics__img">
-                            <img src="/img/instagramm/Rectangle 20 copy 3-2.png" alt="logo" class="instagram-pics__img">
-                            <img src="/img/instagramm/Rectangle 20 copy 3.png" alt="logo" class="instagram-pics__img">
-                            <img src="/img/instagramm/Rectangle 20 copy 4-1.png" alt="logo" class="instagram-pics__img">
-                            <img src="/img/instagramm/Rectangle 20 copy 4-2.png" alt="logo" class="instagram-pics__img">
-                            <img src="/img/instagramm/Rectangle 20 copy 4.png" alt="logo" class="instagram-pics__img">
-                            <img src="/img/instagramm/Rectangle 20 copy.png" alt="logo" class="instagram-pics__img">
-                            <img src="/img/instagramm/Rectangle 20.png" alt="logo" class="instagram-pics__img">
+                            <img src="./img/instagramm/Rectangle 20 copy 2.png" alt="logo" class="footer-insPics__img">
+                            <img src="./img/instagramm/Rectangle 20 copy 3-1.png" alt="logo" class="instagram-pics__img">
+                            <img src="./img/instagramm/Rectangle 20 copy 3-2.png" alt="logo" class="instagram-pics__img">
+                            <img src="./img/instagramm/Rectangle 20 copy 3.png" alt="logo" class="instagram-pics__img">
+                            <img src="./img/instagramm/Rectangle 20 copy 4-1.png" alt="logo" class="instagram-pics__img">
+                            <img src="./img/instagramm/Rectangle 20 copy 4-2.png" alt="logo" class="instagram-pics__img">
+                            <img src="./img/instagramm/Rectangle 20 copy 4.png" alt="logo" class="instagram-pics__img">
+                            <img src="./img/instagramm/Rectangle 20 copy.png" alt="logo" class="instagram-pics__img">
+                            <img src="./img/instagramm/Rectangle 20.png" alt="logo" class="instagram-pics__img">
                         </div>
                         <small><a href="#" class="footer-instagram__linkText">View more photos</a></small>
             </section>        
